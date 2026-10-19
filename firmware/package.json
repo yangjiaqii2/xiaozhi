@@ -115,7 +115,7 @@
   "workspaces": ["tools/typedoc"],
   "devDependencies": {
     "@biomejs/biome": "2.5.8",
-    "@google-cloud/text-to-speech": "^6.4.1",
+    "@google-cloud/text-to-speech": "^7.2.0",
     "@moddable/typings": "^9.0.1",
     "cross-env": "^10.1.0",
     "fontkit": "^2.0.2",
