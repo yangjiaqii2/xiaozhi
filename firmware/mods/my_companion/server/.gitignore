@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+*.wav
+*.pcm
+local-config.js

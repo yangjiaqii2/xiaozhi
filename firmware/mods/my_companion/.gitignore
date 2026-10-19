@@ -1,0 +1,3 @@
+# Local acceptance traces and provider run output stay on the development machine.
+/docs/results/*
+!/docs/results/README.md

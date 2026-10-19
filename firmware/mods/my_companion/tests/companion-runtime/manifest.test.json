@@ -1,0 +1,12 @@
+{
+  "include": [
+    "$(MODDABLE)/examples/manifest_base.json",
+    "../../manifest.json",
+    "../../../../host/modules/testing/manifest.json"
+  ],
+  "modules": {
+    "main": "./runtime.test",
+    "face-state": "../../../../host/modules/ui/state/face-state"
+  },
+  "defines": { "main": { "async": 1 } }
+}

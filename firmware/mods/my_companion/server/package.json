@@ -1,0 +1,19 @@
+{
+  "name": "companion-ai-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --import ../simulator/register.js --test tests/*.test.js",
+    "smoke:text": "node --import ../simulator/register.js smoke.js text",
+    "smoke:audio": "node --import ../simulator/register.js smoke.js audio",
+    "acceptance": "node --import ../simulator/register.js acceptance.js"
+  },
+  "dependencies": {
+    "ws": "8.22.0"
+  }
+}

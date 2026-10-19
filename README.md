@@ -1,3 +1,9 @@
+# Xiaozhi
+
+本仓库基于 [Stack-chan](https://github.com/stack-chan/stack-chan) v1.1.0 开发，新增 AI Companion MOD、自有服务端和 Linux 终端模拟器。
+项目结构、运行命令和已知限制见 [中文开发文档](firmware/mods/my_companion/docs/CODEBASE_DOC.md)，服务端配置见 [API 配置说明](firmware/mods/my_companion/docs/APIYI_REALTIME.md)。
+API Key 通过服务端环境变量或被 Git 忽略的 `local-config.js` 配置；默认模拟器使用 Mock。原项目历史、许可证及说明保留如下。
+
 # Stack-chan
 
 [![Build Stack-chan Firmware](https://github.com/stack-chan/stack-chan/actions/workflows/build.yml/badge.svg)](https://github.com/stack-chan/stack-chan/actions/workflows/build.yml)
