@@ -119,7 +119,7 @@
     "@moddable/typings": "^9.0.1",
     "cross-env": "^10.1.0",
     "fontkit": "^2.0.2",
-    "lefthook": "^2.1.10",
+    "lefthook": "^2.2.2",
     "node-fetch": "^3.3.0",
     "typescript": "^7.0.2",
     "web-audio-engine": "^0.13.4",
